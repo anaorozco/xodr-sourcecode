@@ -1,5 +1,5 @@
 # xodr-sourcecode
-Extension for converting OpenDRIVE simulation data format to vector representation for GDAL (Geospatial Data Abstraction Library)
+Extension for converting OpenDRIVE simulation data format to vector representation for GDAL (Geospatial Data Abstraction Library) implemented in C++
 
 Source code from the master thesis at the Technical University of Munich (TUM) German Aerospace Center (DLR).  
 
