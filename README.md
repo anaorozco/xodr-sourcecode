@@ -1,7 +1,7 @@
 # xodr-sourcecode
 Extension for converting OpenDRIVE simulation data format to vector representation for GDAL (Geospatial Data Abstraction Library) implemented in C++
 
-Source code from the master thesis at the Technical University of Munich (TUM) German Aerospace Center (DLR).  
+Source code from the master thesis at the Technical University of Munich (TUM) - German Aerospace Center (DLR).  
 
 ## Related publications: 
 
@@ -11,3 +11,5 @@ Scholz, Michael, and Orozco, Ana Maria. "Supporting the Implementation of Drivin
 
 ## Licence
 Free and Open Source Software projects, includes XSD Licence. Only for academic purposes under DLR licencing. 
+
+For the official repository of XODR, please visit: DLR Repo @ https://github.com/DLR-TS/xodr 
