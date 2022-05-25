@@ -1,0 +1,16 @@
+
+OBJ	= xodr.obj ogrxodrdriver.obj ogrxodrdatasource.obj ogrxodrlayer.obj OpenDRIVE_1.4E-DRAFT.obj
+#OBJ	= xodr.obj ogrxodrdriver.obj ogrxodrdatasource.obj ogrxodrlayer.obj opendrive14edraft.obj
+
+GDAL_ROOT	=	..\..\..
+
+!INCLUDE $(GDAL_ROOT)\nmake.opt
+
+EXTRAFLAGS = -I.. -I..\.. $(XERCES_INCLUDE) -DHAVE_XERCES $(XSD_INCLUDE) -DHAVE_XSD 
+
+default:	$(OBJ)
+	copy $(XERCES_DIR)\bin\*.dll $(GDAL_ROOT)
+	copy $(XERCES_DIR)\bin\*.pdb $(GDAL_ROOT)
+
+clean:
+	-del *.obj *.pdb
